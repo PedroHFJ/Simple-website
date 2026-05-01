@@ -1,2 +1,2 @@
-# Site simples
-Fiz o desafio 10 do guanabara usando apenas HTML e CSS e adicionei também uma página de login. 
+# simple website
+I completed Guanabara's challenge 10 using only HTML and CSS, and I also added a login page.

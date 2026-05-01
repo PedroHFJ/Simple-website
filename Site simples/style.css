@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+header{
+    font-family: poppins;
+    background-image: linear-gradient(rgb(138, 204, 121),rgb(79, 212, 46),rgb(21, 153, 21), green);
+    padding: 20px ;
+
+}
+header > h1{
+    text-align: center;
+    color: #fff;
+}
+
+header > p{
+    color: #fff;
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color:#fff;
+    font-style: normal;
+    padding: 5px;
+    margin: 5px;
+}
+nav > a:hover{
+    color: rgb(238, 255, 0);
+    background-color: rgb(126, 187, 131);
+}
+form{
+    font-family:arial, sans-serif, serif;
+}
+
+section#start > h1{
+    font-family:poppins;
+    color: rgb(1, 87, 1);
+}
+
+h2{
+    background-image:linear-gradient(to right, rgb(152, 224, 152),rgb(232, 252, 232), rgb(221, 235, 221));
+    font-family: poppins;
+    color: rgb(1, 87, 1);
+}
+
+p > a{
+    color: green;
+    text-decoration: none;
+    
+}
+p > a:hover{
+    color: yellow;
+}
+section#fundo{
+    background-color: rgb(2, 71, 0);
+}
+section#video{
+    text-align: center;
+    padding: 30px;
+}
+article#final{
+    background-color: rgba(135, 255, 195, 0.404);
+    border-radius: 10px;
+    padding: 0px 0px 5px 2px;
+}
+
+h3{
+    font-family: poppins;
+    background-color: rgb(48, 121, 48);
+    color: #fff;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+ol{
+    display: inline-block;
+}
+.lista1{
+    margin-right:50px;
+}
+ol {
+    list-style: none; /* Remove números */
+  }
+
+  ol >li {
+    position: relative;
+    padding-left: 30px; /* Espaço para o checkmark */
+    margin-bottom: 10px;
+  }
+
+  ol > li::before {
+    content: '\2714'; /* Sinal de verificado */
+    position: absolute;
+    left: 0;
+    color: green; /* Cor do checkmark */
+    font-weight: bold;
+  }
+ 
+footer{
+    text-align: center;
+    font-family: poppins;
+    color: #fff;
+    background-color: black;
+}
+
+main{
+    margin: 0px 300px 0px 300px;
+}
